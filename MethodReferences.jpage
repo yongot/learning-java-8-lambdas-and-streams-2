@@ -1,0 +1,9 @@
+// Method references
+
+// Lambda expression
+
+(trade) -> trade.isOpen();
+
+// :: = method reference. no parenthese because we are declaring method reference, not invoking the actual method
+//
+trade::isOpen;
